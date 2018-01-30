@@ -1,0 +1,226 @@
+.background {
+  background: url(./image/jobfairform.png);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.form {
+  color: black;
+  position: absolute;
+  top: 10%;
+  height: 450px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .label-div {
+    margin-top: 7px;
+    margin-bottom: -7px;
+  }
+}
+
+
+
+.label {
+  color: black;
+  font-size: 35px;
+}
+
+@media (max-width: 990px) {
+  .label {
+    font-size: 33px;
+  }
+}
+
+.text-input {
+  background-color: #C9C3D2;
+  border: 0px solid #C9C3D2;
+  border-left: 45px solid #C9C3D2;
+  border-right: 40px solid #C9C3D2;
+  border-radius: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.text-input:focus { outline: none; font-size: 20px; font-weight: 400; }
+
+.text-input::-webkit-input-placeholder { color: black; font-size: 20px; font-weight: 400;}
+
+.absenden {
+  background: #86799A;
+  border: none;
+  border-radius: 30px;
+  width: 300px;
+  height: 70px;
+  color: white;
+}
+
+.absenden:focus { outline: none; }
+
+.evonik {
+  height: 90px;
+}
+
+.icon {
+  position: absolute;
+  left: 40px;
+  width: 40px;
+}
+@media (min-width: 1200px) {
+  .icon {
+    left: 105px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 991px) {
+  .icon {
+    left: 55px;
+  }
+}
+
+@media (max-width: 990px) {
+  .icon {
+    left: 6px;
+  }
+}
+
+
+
+.togle-div {
+  margin-top: 10px;
+  display: inline-flex;
+  width: 300px;
+  margin-left: 30px;
+}
+
+.togle-text {
+  font-size: 12px !important;
+  color: #B3aebb;
+  text-align: left;
+}
+
+.react-toggle {
+  touch-action: pan-x;
+
+  display: inline-table;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  top: 15px;
+  left: -5px;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-toggle-screenreader-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.react-toggle--disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+}
+
+.react-toggle-track {
+  width: 55px;
+  height: 20px;
+  padding: 0;
+  border-radius: 30px;
+  background: linear-gradient( -0deg, #B3AEBB 50%, #C9C3D2 50% );
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.react-toggle--checked .react-toggle-track {
+  background: linear-gradient( -0deg, #7BD921 50%, #66B31B 50% );
+}
+
+.react-toggle-track-check {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  top: 0px;
+  bottom: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  left: 8px;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.react-toggle--checked .react-toggle-track-check {
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.react-toggle-track-x {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0px;
+  bottom: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  right: 10px;
+  opacity: 1;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.react-toggle--checked .react-toggle-track-x {
+  opacity: 0;
+}
+
+.react-toggle-thumb {
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  position: absolute;
+  top: -2px;
+  left: -5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: linear-gradient( -0deg, #CFDBE6 50%, #E6F3FF 50% );
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.react-toggle--checked .react-toggle-thumb {
+  left: 32px;
+  border-color: #19AB27;
+}

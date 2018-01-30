@@ -1,0 +1,28 @@
+.jumbo-style {
+    background-color: #40384c;
+    color:white;
+}
+
+.confirm-button {
+    border-radius: 20px;
+    background-color: #f2415f;
+    border-color: #f2415f;
+}
+
+.confirm-button:focus {
+    outline: none !important;
+}
+
+.confirm-button:hover {
+    background-color: white;
+    color: #f2415f;
+}
+
+.cancel-button {
+    color: #f2415f;
+}
+
+.cancel-button:hover {
+    color: white;
+    text-decoration: none;
+}
